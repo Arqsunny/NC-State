@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-1_teaching-kitchen">
+        <li class="text">1_Teaching Kitchen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-2_level-1-fitness">
+        <li class="text">2_Level 1 Fitness</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-3_climbing-wall">
+        <li class="text">3_Climbing Wall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-4_climbing-wall">
+        <li class="text">4_Climbing Wall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-5_level-2-lobby">
+        <li class="text">5_Level 2 Lobby</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-6_level-2-lounge">
+        <li class="text">6_Level 2 Lounge</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-7_level-2-fitness">
+        <li class="text">7_Level 2 Fitness</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-8_level-2-fitness">
+        <li class="text">8_Level 2 Fitness</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-9_level-2-fitness">
+        <li class="text">9_Level 2 Fitness</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-10_level-2-admin">
+        <li class="text">10_Level 2 Admin</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-11_level-2-admin">
+        <li class="text">11_Level 2 Admin</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-12_level-2-admin">
+        <li class="text">12_Level 2 Admin</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-13_level-2-admin">
+        <li class="text">13_Level 2 Admin</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-14_level-2-bridge">
+        <li class="text">14_Level 2 Bridge</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-15_level-3-admin">
+        <li class="text">15_Level 3 Admin</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-16_level-3-admin">
+        <li class="text">16_Level 3 Admin</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-17_level-3-admin">
+        <li class="text">17_Level 3 Admin</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-19_level-3-fitness">
+        <li class="text">19_Level 3 Fitness</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-20_level-3-fitness">
+        <li class="text">20_Level 3 Fitness</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-21_level-3-fitness">
+        <li class="text">21_Level 3 Fitness</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-22_level-3-sprint-ramp">
+        <li class="text">22_Level 3 Sprint Ramp</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-22_level-3-performance-studio">
+        <li class="text">22_Level 3 Performance Studio</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-221_level-3-stair">
+        <li class="text">22.1_Level 3 Stair</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-23_sprint-ramp">
+        <li class="text">23_Sprint Ramp</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-24_level-4-fitness">
+        <li class="text">24_Level 4 Fitness</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-25_level-4-fitness">
+        <li class="text">25_Level 4 Fitness</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-26_level-4-fitness">
+        <li class="text">26_Level 4 Fitness</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-27_level-4-fitness">
+        <li class="text">27_Level 4 Fitness</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-28_level-4-fitness">
+        <li class="text">28_Level 4 Fitness</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-29_level-4-fitness">
+        <li class="text">29_Level 4 Fitness</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-30_level-4-fitness">
+        <li class="text">30_Level 4 Fitness</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-31_level-4-fitness">
+        <li class="text">31_Level 4 Fitness</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-32_level-4-fitness">
+        <li class="text">32_Level 4 Fitness</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-33_level-4-roof">
+        <li class="text">33_Level 4 Roof</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-34_level-4-roof">
+        <li class="text">34_Level 4 Roof</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-35_level-4-roof">
+        <li class="text">35_Level 4 Roof</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-36_level-4-roof">
+        <li class="text">36_Level 4 Roof</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-37_level-4-restroom">
+        <li class="text">37_Level 4 Restroom</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/es5-shim.js"></script>
+<script src="vendor/eventShim.js"></script>
+<script src="vendor/classList.js"></script>
+<script src="vendor/requestAnimationFrame.js" ></script>
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
